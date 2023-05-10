@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+  background: url(imges/background4.jpg);
+  background-size:cover;
+  /* overflow: hidden; */
+  
+
+}
+h1{
+    letter-spacing: 6px;
+    word-spacing: 2px;
+    font-weight: 600;
+    font-size: 120px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: 'Waterfall', cursive;
+
+}
+.clock{
+    display: flex;
+    
+
+}
+.clock div{
+    margin: 10px;
+   
+
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(255, 140, 0);
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+    
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background-color: black;
+}
+.clock #ampm{
+   
+}
